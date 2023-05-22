@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Wix+Madefor+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:wght@300&family=Wix+Madefor+Display&display=swap');
+
+html{
+    height: 100%;
+}
+body{
+    padding: 1rem 5rem;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, rgba(183,201,246,0.7), rgba(7,43,127,067)), url("./pictures/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1{
+    color: rgb(214,147,45);
+    text-decoration: underline;
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+#input{
+    font-size: 18px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background: aliceblue;
+}
+#search{
+    background: cadetblue;
+    padding: 5px 20px;
+    color: aliceblue;
+    outline: none;
+    font-size: 17px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+}
