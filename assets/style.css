@@ -98,7 +98,7 @@ main{
     margin-bottom: 5px;
     text-transform: capitalize;
 }
-.time{
+.time, .date{
     color: rgb(254,189,132);
 }
 .desc{
