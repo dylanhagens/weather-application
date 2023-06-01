@@ -15,7 +15,7 @@ window.addEventListener("load",()=>{
                 console.log(data);
                 console.log(new Date().getTime())
                 var dat= new Date(data.dt)
-                console.log(dat.toLocaleString(undefined,'Asia/Kolkata'))
+                console.log(dat.toLocaleString(undefined,'Chicago'))
                 console.log(new Date().getMinutes())
                 weatherReport(data);
             })
@@ -109,7 +109,7 @@ function dayForecast(forecast){
         div.appendChild(day);
 
         let temp= document.createElement('p');
-        temp.innerText= Math.floor((forecast.list[i].main.temp_max - 273))+ ' °F' + ' / ' + Math.floor((forecast.list[i].main.temp_min - 273))+ ' °C';
+        temp.innerText= Math.floor((forecast.list[i].main.temp_max - 273))+ ' °F' + ' / ' + Math.floor((forecast.list[i].main.temp_min - 273))+ ' °F';
         div.appendChild(temp)
 
         let description= document.createElement('p');
